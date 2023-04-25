@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Tracker-Kotlin</string>
+    <string name="app_name">Tracker Kotlin</string>
+    <string name="login_in">Login</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >6 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!--   Dashbaord -->
+    <string name="welcome_dashboard">Welcome to Dashboard</string>
 </resources>
