@@ -3,17 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".TrackerApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/ic_tracker"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:name=".TrackerApplication"
         android:theme="@style/Theme.TrackerKotlin"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.dashboard.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ui.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
